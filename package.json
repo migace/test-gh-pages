@@ -6,7 +6,7 @@
   "scripts": {
     "dev:ui": "parcel index.html",
     "dev:server": "json-server --watch db.json",
-    "build": "parcel build",
+    "build": "parcel build --public-url https://migace.github.io/test-gh-pages",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
